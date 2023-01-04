@@ -1,4 +1,13 @@
 version: "3.9"
 services:
-  app:
+  workerdisk:
     build: .
+    environment:
+      - API_ID=${API_ID}
+      - API_HASH=${HASH}
+      - TOKEN=${TOKEN}
+      - DB_NAME=${DB_NAME}
+      - DB_URL=${DB_URL}
+      - CHANNEL=${CHANNEL}
+      - ADMIN=${ADMIN}
+      - ADMIN=${ADMIN}
