@@ -51,6 +51,10 @@ Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?templatehttps://github.com/lntechnical2/RENAMER_BOT_V3)
 
+git clone https://github.com/Devil-Botz/Rename-Premium
+# Install Packages
+pip3 install -U -r requirements.txt
+python3 bot.py
 
 # How To Use Admin Command 
 <p align="center">
