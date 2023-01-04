@@ -4,7 +4,9 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
-	text = """**Important Message**
+	text = """**You can get premium subscription under cheap rate.**
+
+       **Important Message**
         First you contact Admin to check bot service active or not.
         
         **Free Plan User**
@@ -13,18 +15,13 @@ async def upgrade(bot,update):
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	Price Rs 20  🇮🇳/🌎 0.67$  per Month
 	
 	**VIP 2 **
 	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	Price Rs 60  🇮🇳/🌎 0.97$  per Month
 	
-	**VIP3**
-	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
-	
-	
-	Pay Using Upi I'd ```aswin25@paytm```
+	**Pay Using Upi I'd** ```aswin25@paytm```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
@@ -36,7 +33,9 @@ async def upgrade(bot,update):
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
-	text = """**Important Message**
+	text = """**You can get premium subscription under cheap rate.**
+
+        **Important Message**
         First you contact Admin to check bot service active or not.
 
         **Free Plan User**
@@ -45,18 +44,13 @@ async def upgradecm(bot,message):
 	
 	**VIP 1 ** 
 	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	Price Rs 20  🇮🇳/🌎 0.67$  per Month
 	
 	**VIP 2 **
 	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	Price Rs 60  🇮🇳/🌎 0.97$  per Month
 	
-	**VIP3**
-	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
-	
-	
-	Pay Using Upi I'd ```aswin25@paytm```
+	**Pay Using Upi I'd** ```aswin25@paytm```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
