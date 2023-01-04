@@ -42,8 +42,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ 🇮🇳" ,url="https://t.me/Elsasupportgp") ], 
-	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ 🧐", url="https://t.me/cinemala_com1") ]  ]))
+	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/Elsasupportgp") ], 
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/cinemala_com1") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -72,7 +72,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/Elsasupportgp") ], 
-	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ 🧐", url="https://t.me/cinemala_com1") ]  ]))
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/cinemala_com1") ]  ]))
 	         
 
 
