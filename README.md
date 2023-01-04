@@ -53,8 +53,8 @@ Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 ```sudo apt update && apt upgrade -y
 sudo apt install git curl python3-pip ffmpeg -y
-git clone https://github.com/Devil-Botz/Rename-Premium ok
-cd ok
+git clone https://github.com/Devil-Botz/Rename-Premium rp
+cd rp
 pip3 install -U -r requirements.txt
 python3 main.py # run the bot.```
 
