@@ -42,8 +42,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ 🇮🇳" ,url="https://t.me/Elsasupportgp") ], 
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ 🧐", url="https://t.me/cinemala_com1") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,8 +55,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/Elsasupportgp") ], 
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/cinemala_com1") ]  ]))
 	        except:
 	             return
 	    else:
@@ -71,8 +71,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/Elsasupportgp") ], 
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ 🧐", url="https://t.me/cinemala_com1") ]  ]))
 	         
 
 
@@ -88,7 +88,7 @@ async def send_doc(client,message):
        		await message.reply_text("**__You are not subscribed my channel__** ",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        try:
            bot_data = find_one(int(botid))
