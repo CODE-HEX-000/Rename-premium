@@ -28,7 +28,7 @@ elif 12 <= currentTime.hour < 12:
 else:
 	wish = 'Good evening.'
 
-#-------------------------------
+#--------------------------------
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
