@@ -7,6 +7,8 @@ from plugins.web import web_server
 from info import TOKEN, API_ID, API_HASH, STRING, PORT
 from plugins.cb_data import app as Client2
 
+from aiohttp import web
+from plugins.web import web_server
 
 
 bot = Client(
@@ -20,6 +22,11 @@ bot = Client(
            api_hash=API_HASH,
 
            plugins=dict(root='plugins'))
+
+    app = web.AppRunner(await web_server())
+       await app.setup()
+       bind_address = "0.0.0.0"
+       await web.TCPSite(app, bind_address, PORT).start()
            
 
 if STRING:
@@ -29,11 +36,7 @@ if STRING:
     idle()
     for app in apps:
         app.stop()
-        app = web.AppRunner(await web_server())
-       await app.setup()
-       bind_address = "0.0.0.0"
-       await web.TCPSite(app, bind_address, PORT).start()
-    
+            
 else:
     
     bot.run()
