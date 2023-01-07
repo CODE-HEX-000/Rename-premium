@@ -1,8 +1,10 @@
 import asyncio
 from pyrogram import Client, compose,idle
 import os
+from aiohttp import web
+from plugins.web import web_server
 
-from info import TOKEN, API_ID, API_HASH, STRING
+from info import TOKEN, API_ID, API_HASH, STRING, PORT
 from plugins.cb_data import app as Client2
 
 
@@ -29,4 +31,8 @@ if STRING:
         app.stop()
     
 else:
+    app = web.AppRunner(await web_server())
+       await app.setup()
+       bind_address = "0.0.0.0"
+       await web.TCPSite(app, bind_address, PORT).start()
     bot.run()
