@@ -10,11 +10,11 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-from info import CHANNEL, STRING
+from info import CHANNEL, STRING, TOKEN, LOG_CHANNEL
 import datetime
 from datetime import date as date_
-log_channel = int(os.environ.get("LOG_CHANNEL","-1001699553559"))
-token = os.environ.get('TOKEN','5561256931:AAENFrTU2KJ-t3ZzVPJfmRq_JSeFtDIxBvM')
+log_channel = LOG_CHANNEL
+token = TOKEN
 botid = token.split(':')[0]
 
 #Part of Day --------------------
