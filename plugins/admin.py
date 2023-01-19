@@ -28,7 +28,7 @@ async def buypremium(bot, message):
 @Client.on_callback_query(filters.regex('vip1'))
 async def vip1(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
-	user_id = id[1].replace(" ", "")
+	user_id = id[1].split(" ", "")
 	inlimit  = 10737418240
 	uploadlimit(int(user_id),10737418240)
 	usertype(int(user_id),"VIP1")
@@ -39,7 +39,7 @@ async def vip1(bot,update):
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
-	user_id = id[1].replace(" ", "")
+	user_id = id[1].split(" ", "")
 	inlimit  = 53687091200
 	uploadlimit(int(user_id),53687091200)
 	usertype(int(user_id),"VIP2")
