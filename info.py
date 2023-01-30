@@ -15,6 +15,6 @@ DB_NAME = os.environ.get("DB_NAME","hellodb")
 
 DB_URL = os.environ.get("DB_URL","mongodb+srv://hellodb:hellodb@cluster0.nmnwvqm.mongodb.net/?retryWrites=true&w=majority")
 
-CHANNEL = os.environ.get('CHANNEL',"cinemala_com1")
+CHANNEL = os.environ.get('CHANNEL',"moviecafe_01")
 
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001699553559"))
