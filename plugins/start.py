@@ -42,7 +42,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/Elsasupportgp") ], 
-	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/cinemala_com1") ]  ]))
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/+1iWSCrpI_083MDM1") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,7 +55,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/Elsasupportgp") ], 
-	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/cinemala_com1") ]  ]))
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/+1iWSCrpI_083MDM1") ]  ]))
 	        except:
 	             return
 	    else:
@@ -71,7 +71,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/Elsasupportgp") ], 
-	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/cinemala_com1") ]  ]))
+	[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/+1iWSCrpI_083MDM1") ]  ]))
 	         
 
 
