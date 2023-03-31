@@ -4,7 +4,7 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
-	text = """**You can get premium subscription under cheap rate.**
+	text = """**⚠️ Premium not available. **
 
        **Important Message**
         First you contact Admin to check bot service active or not.
@@ -33,7 +33,7 @@ async def upgrade(bot,update):
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
-	text = """**You can get premium subscription under cheap rate.**
+	text = """**⚠️ Premium not available.**
 
         **Important Message**
         First you contact Admin to check bot service active or not.
